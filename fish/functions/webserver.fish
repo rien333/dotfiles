@@ -1,3 +1,3 @@
 function webserver
-    darkhttpd $argv --addr 192.168.0.70 --port 8082
+    darkhttpd $argv --addr 127.0.0.1 --port 8080
 end
