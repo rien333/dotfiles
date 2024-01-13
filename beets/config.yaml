@@ -1,5 +1,5 @@
 directory: ~/Music
-library: ~/Music/musiclibrary.db
+library: ~/.config/beets/musiclibrary.db
 import:
   copy: no
   write: yes
@@ -7,7 +7,7 @@ import:
 plugins:
   fetchart lastgenre zero fish edit scrub info discogs play random
 play:
-  command: amberol
+  command: mpc play 
 lastgenre:
   count: 3
 paths:
@@ -17,7 +17,7 @@ paths:
 # assume the release date of the original release
 original_date: yes
 zero:
-  fields: month day comments lyrics images albumartist_sort albumartist_credit albumartist_credit arranger artist_sort composer_sort acoustid_fingerprint acoustid_id  bpm rg_album_gain catalognum rg_album_peak
+  fields: month day comments lyrics images albumartist_sort albumartist_credit albumartist_credit arranger artist_sort composer_sort acoustid_fingerprint acoustid_id bpm rg_album_gain catalognum rg_album_peak
   update_databese: true
 fetchart:
   auto: yes
