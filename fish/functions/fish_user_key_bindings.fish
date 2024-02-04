@@ -6,4 +6,5 @@ function fish_user_key_bindings
     bind \e\" __fish_commandline_insert_escaped\ \'\"\"\'\;\ commandline\ -f\ backward-char
     bind \e\' __fish_commandline_insert_escaped\ \"\'\'\"\;\ commandline\ -f\ backward-char
     bind \e\( __fish_commandline_insert_escaped\ \\\(\\\)\;\ commandline\ -f\ backward-char\ force-repaint
+    # bind \ed 'commandline -f kill-line; fish_clipboard_copy $killring[1]; commandline -f force-repaint'
 end

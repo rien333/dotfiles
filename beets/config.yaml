@@ -5,9 +5,10 @@ import:
   write: yes
   move: yes
 plugins:
-  fetchart lastgenre zero fish edit scrub info discogs play random
+  fetchart lastgenre zero fish edit scrub info discogs play random mpdupdate
 play:
-  command: mpc play 
+  command: mpc add
+  raw: yes
 lastgenre:
   count: 3
 paths:
@@ -21,7 +22,10 @@ zero:
   update_databese: true
 fetchart:
   auto: yes
+  cover_format: JPEG
+  enforce_ratio: 8% # devation from 1:1
 clutter:
+
   - "Thumbs.DB"
   - "Thumbs.db"
   - "thumbs.db"
@@ -30,3 +34,7 @@ clutter:
   - "*.m3u"
   - "*.cue"
   - "*.log"
+mpd:
+  host: /run/user/1000/mpd/socket
+
+  
