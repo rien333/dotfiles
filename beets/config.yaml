@@ -1,16 +1,20 @@
 directory: ~/Music
 library: ~/.config/beets/musiclibrary.db
+# accept mathches with similarity of 90% and above
+match: 
+  strong_rec_thresh: 0.10 # (default: 0.04)
 import:
   copy: no
   write: yes
   move: yes
 plugins:
-  fetchart lastgenre zero fish edit scrub info discogs play random mpdupdate
+  fetchart lastgenre zero fish edit scrub info discogs mpdupdate mbsubmit
 play:
   command: mpc add
   raw: yes
 lastgenre:
   count: 3
+  prefer_specific: yes
 paths:
     default: $albumartist — $album ($year)/$track $title
     singleton: Non-Album/$artist/$title
@@ -25,7 +29,6 @@ fetchart:
   cover_format: JPEG
   enforce_ratio: 8% # devation from 1:1
 clutter:
-
   - "Thumbs.DB"
   - "Thumbs.db"
   - "thumbs.db"

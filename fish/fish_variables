@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR AFGUNST:192\x2e168\x2e0\x2e164
+SETUVAR AFGUNST:192\x2e168\x2e0\x2e111
 SETUVAR COUNTRY:NL
 SETUVAR DBUS_SESSION_BUS_ADDRESS:/run/user/1000/bus
 SETUVAR FBFONT:/usr/share/kbd/consolefonts/ter\x2d216n\x2epsf\x2egz
@@ -25,6 +25,7 @@ SETUVAR _fish_abbr_bf:beet\x20fetchart
 SETUVAR _fish_abbr_c1:cd\x20\x28lsh1\x20\x2dd\x20\x2a/\x29
 SETUVAR _fish_abbr_ch:chmod\x20u\x2bx
 SETUVAR _fish_abbr_dfh:df\x20\x2dh
+SETUVAR _fish_abbr_dr:dragon\x2ddrop\x20\x2dx\x20\x2dT
 SETUVAR _fish_abbr_di:dua\x20i
 SETUVAR _fish_abbr_e_2E_:e\x20\x2e
 SETUVAR _fish_abbr_ec:echo
@@ -49,10 +50,12 @@ SETUVAR _fish_abbr_mi:mediainfo
 SETUVAR _fish_abbr_mk:mkdir
 SETUVAR _fish_abbr_o:open
 SETUVAR _fish_abbr_o.:open\x20.
+SETUVAR _fish_abbr_o1:open\x20\x28lsh1\x29
 SETUVAR _fish_abbr_p:paru
 SETUVAR _fish_abbr_ps:procs
 SETUVAR _fish_abbr_psa:ps\x20aux\x20\x7c\x20grep
 SETUVAR _fish_abbr_psg:procs
+SETUVAR _fish_abbr_pg:pdfgrep
 SETUVAR _fish_abbr_pu:pulsemixer
 SETUVAR _fish_abbr_py:python
 SETUVAR _fish_abbr_q:qbittorrent\x2dnox\x20\x2d\x2dfirst\x2dand\x2dlast\x20\x2d\x2dsequential
@@ -61,9 +64,11 @@ SETUVAR _fish_abbr_rm1:rm\x20systemd\x2dprivate\x2df16e2f7eea3c4814965d05f8ee967
 SETUVAR _fish_abbr_rmr:rm\x20\x2drf
 SETUVAR _fish_abbr_rr:rm\x20\x2dr
 SETUVAR _fish_abbr_s:sudo
+SETUVAR _fish_abbr_kr:krita
 SETUVAR _fish_abbr_sa:ssh\x20\x24AFGUNST
+SETUVAR _fish_abbr_sA:ssh\x20ara\x20\x2dt\x20fish
 SETUVAR _fish_abbr_sb:ssh\x20rw\x40192\x2e168\x2e0\x2e69
-SETUVAR _fish_abbr_sn:ssh\x20nuc.local\x20\x2dt\x20XDG_RUNTIME_DIR\x3d/run/user/1000\x20fish
+SETUVAR _fish_abbr_sn:ssh\x20nuc.local\x20\x2dt\x20XDG_RUNTIME_DIR\x3d/run/user/1000\x20\INSIDE\x5FEMACS\x3d\x24INSIDE\x5fEMACS\x20fish
 SETUVAR _fish_abbr_sp:ssh\x20nuc.local\x20\x2dt\x20XDG_RUNTIME_DIR\x3d/run/user/1000\x20fish
 SETUVAR _fish_abbr_sr:sudo\x20reboot
 SETUVAR _fish_abbr_ss:sudo\x20systemctl
