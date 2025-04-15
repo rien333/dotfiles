@@ -9,3 +9,5 @@ function fish_prompt --description 'Write out the prompt; do not replace this. I
     printf "%b" (string join "\n" (vterm_old_fish_prompt))
     vterm_prompt_end
 end
+# This is too annoying to add in fish_variables
+abbr --add dotdot --regex '^\.\.+$' --function multicd
